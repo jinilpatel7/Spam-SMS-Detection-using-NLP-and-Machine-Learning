@@ -14,10 +14,15 @@ We use a publicly available **Spam/Ham SMS dataset** in CSV format. The dataset 
 ---
 
 ## 🚀 Project Workflow
+
 1️⃣ **Data Collection** → Load dataset from CSV file.
+
 2️⃣ **Data Preprocessing** → Clean text, tokenize, remove stopwords, and apply lemmatization.
+
 3️⃣ **Word Representation** → Convert text into numerical form using **TF-IDF Vectorization**.
+
 4️⃣ **Model Building** → Train and evaluate different ML models.
+
 5️⃣ **Model Evaluation** → Use accuracy, confusion matrix, and precision score.
 
 ---
@@ -44,6 +49,7 @@ We use **TF-IDF (Term Frequency-Inverse Document Frequency)** to transform text 
 
 ## 📈 Model Evaluation  
 We evaluate our models using:
+
 ✅ **Accuracy Score** → Measures overall correctness.  
 ✅ **Confusion Matrix** → Shows correct and incorrect classifications.  
 ✅ **Precision Score** → Measures how many predicted **spam messages** were actually spam.  
